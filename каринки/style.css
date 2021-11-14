@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 45px;
+	font-family: 'Arial';
+	color: blue;
+	box-sizing: border-box;
+	background: deepskyblue;
+}
+
+p{ 
+			color: blue;
+			margin: 30px 0;
+			line-height:1.40;	}
+
+		div{
+			width: 75%;
+			margin: auto;
+			padding: 20px;
+			background-color:white;
+			box-shadow: 20px 50px 50px 50px rgba(49,13,223,1);
+		}
+		a{
+			text-decoration: none;
+			color: darkblue;
+		}
+		img{
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+		h1{
+		font-size: 50px;
+		font-family: Times new Roman;
+		color: blue;
+		text-align: center;
+		}
