@@ -1,0 +1,42 @@
+.img-box{
+	column-count: 4;
+	column-gap: 10px;
+	width: 95%;
+	max-width: 1400px;
+	margin: auto;
+}
+.image{
+	max-width: 100%;
+	display: block;
+
+}
+.img_link{
+	display: block;
+	opacity:20;
+	transition: 0.4s;
+	filter: blur(1px);
+}
+
+.img_link+.img_link{
+	margin: 3px;
+}
+.img_link:hover{
+	opacity: 1;
+	filter: brightness(0.7);
+	
+}
+@font-face{
+	font-family:Pacifico-Regular;
+	src: url(../fonts/Pacifico-Regular.ttf);
+
+}
+body{
+	font-family:Pacifico-Regular;
+	background-color:#B0E0E6;
+}
+h1{
+	font-size: 50px;
+	text-align:center ;
+
+
+}
