@@ -1,0 +1,56 @@
+*{
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	background-color:#eee;
+	font-family:Pacifico-Regular;
+}
+.main{background-color:#fff ;
+	display:flex ;
+	width:95%;
+	max-width:1000px;
+	margin:auto;
+	box-shadow:0 0 30px 30px rgba(0,0,0,0.3) ;
+	flex-wrap:wrap ;
+}
+.item{
+	height:265px ;
+	width:460px ;
+	
+	background-color:blue ;
+	margin:5px ;
+	background-position:center ;
+	-webkit-backroud-size:cover ;
+	background-size:cover ;
+	}
+	h1{
+		font-size:50px ;
+		text-align:center ;
+		width:100% ;
+		padding:50px ;
+		
+	}
+	
+	.img_link:hover{
+	   opacity: 3;
+	   transform: scale(1.20) rotate(3deg);
+	   box-shadow:0 0 200px 30px rgba(0,0,0,0.3) ;
+	   margin: 5px;
+	   z-index: 30;
+	}.img_link{
+		transition: 0.5s ease;
+	}
+
+@font-face{
+	font-family:Pacifico-Regular;
+	src: url(../fonts/Pacifico-Regular.ttf);
+
+}
+
+
+	
+
